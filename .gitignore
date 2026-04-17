@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+outputs/logs/*.csv
+outputs/videos/*.mp4

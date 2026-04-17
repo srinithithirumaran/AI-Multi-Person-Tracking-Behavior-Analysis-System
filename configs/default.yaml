@@ -1,0 +1,34 @@
+detector:
+  model_path: "yolov8n.pt"
+  confidence_threshold: 0.4
+  iou_threshold: 0.5
+  target_class_ids: [0]  # COCO person class
+  device: "cpu"
+
+tracker:
+  algorithm: "deepsort"   # options: deepsort, sort
+  max_age: 30
+  min_hits: 3
+  iou_threshold: 0.3
+  max_cosine_distance: 0.3
+  n_init: 3
+
+behavior:
+  standing_speed_threshold: 7.0
+  moving_speed_threshold: 18.0
+  loitering_seconds: 120
+  suspicious_idle_seconds: 300
+  irregular_motion_window: 25
+  irregular_motion_threshold: 350.0
+
+display:
+  show_trails: true
+  trail_size: 32
+  dashboard_width: 380
+  font_scale: 0.5
+
+runtime:
+  source: "0"             # webcam index or file path
+  resize_width: 960
+  output_video: true
+  output_fps: 20
