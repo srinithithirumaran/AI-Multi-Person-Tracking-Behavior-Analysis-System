@@ -1,63 +1,108 @@
-# AI Multi-Person Tracking & Behavior Analysis System
+# 🚀 AI Multi-Person Tracking & Behavior Analysis System
 
-Industry-style real-time surveillance AI pipeline using detection + tracking + behavior intelligence.
+> 🎯 Real-time AI surveillance system that detects, tracks, and analyzes human behavior using Deep Learning.
 
-## Features
+---
 
-- Real-time multi-person detection with YOLOv8
-- Persistent multi-target tracking with DeepSORT or SORT-style tracker
-- Behavior analysis for:
-  - Sitting/Standing (low movement)
-  - Moving
-  - Loitering (idle too long)
-  - Suspicious idle (very long idle)
-  - Irregular movement (high speed variance)
-- Real-time dashboard overlay with per-person status
-- CSV event logs and optional output recording
+## 🎥 Demo Preview
 
-## Project Structure
+👉 *(Add your demo video or screenshots here)*
 
-- `main.py`: end-to-end runner
-- `configs/default.yaml`: system configuration
-- `src/core/detector.py`: YOLO detector
-- `src/core/tracker.py`: DeepSORT/SORT adapter
-- `src/analytics/behavior.py`: behavior engine
-- `src/ui/dashboard.py`: drawing + side dashboard
-- `src/utils/events.py`: CSV event logging
+---
 
-## Setup
+## 🔥 Key Features
 
-1. Create environment and install dependencies:
+✅ Real-time multi-person detection using YOLOv8
+✅ Persistent tracking with DeepSORT / SORT
+✅ Intelligent behavior analysis:
 
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
+* 🟢 Normal movement
+* 🟡 Loitering (idle too long)
+* 🔴 Suspicious behavior (irregular motion)
+
+✅ Live dashboard with:
+
+* Person count
+* Individual tracking IDs
+* Behavior status
+
+✅ Output generation:
+
+* 📹 Recorded video
+* 📊 CSV event logs
+
+---
+
+## 🧠 Tech Stack
+
+* Python
+* OpenCV
+* YOLOv8 (Object Detection)
+* DeepSORT (Tracking)
+* NumPy / Pandas
+
+---
+
+## ⚙️ How It Works
+
+1. Detect people using YOLOv8
+2. Track each person with unique ID
+3. Analyze movement patterns
+4. Classify behavior in real-time
+5. Display results in dashboard
+
+---
+
+## 📂 Project Structure
+
+```
+AI-Multi-Person-Tracking/
+│── configs/
+│── src/
+│── outputs/
+│── main.py
+│── requirements.txt
 ```
 
-2. Run with webcam:
+---
 
-```powershell
+## ▶️ Run the Project
+
+```bash
+pip install -r requirements.txt
 python main.py --config configs/default.yaml
 ```
 
-3. Run with video file by updating `runtime.source` in `configs/default.yaml`.
+---
 
-## Behavior Logic
+## 📊 Output
 
-- Speed is estimated from center displacement between frames.
-- If speed is below thresholds for long durations:
-  - `loitering_seconds` -> Loitering
-  - `suspicious_idle_seconds` -> Suspicious idle
-- High variance in speed history triggers irregular movement.
+* 📁 Event Logs → `outputs/logs/`
+* 🎥 Video Output → `outputs/videos/`
 
-## Output
+---
 
-- Event CSV: `outputs/logs/events_*.csv`
-- Recorded video: `outputs/videos/session_*.mp4` (if enabled)
+## ⚠️ Notes
 
-## Notes
+* First run will download YOLO model
+* Press `q` to stop the camera
+* For GPU: set `device: "0"`
 
-- First run may download YOLO model weights (`yolov8n.pt`).
-- For better accuracy and GPU use, set `detector.device: "0"` (CUDA device id) when available.
-- Press `q` to stop stream.
+---
+
+## 🌟 Why This Project Stands Out
+
+This is not just detection — it is a **complete AI system** combining:
+
+* Detection
+* Tracking
+* Behavior Intelligence
+
+👉 Similar to real-world surveillance AI systems.
+
+---
+
+## 👩‍💻 Author
+
+Built with focus on real-world AI applications and system design.
+
