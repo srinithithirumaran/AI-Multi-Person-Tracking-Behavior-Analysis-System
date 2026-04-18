@@ -1,4 +1,3 @@
-<img width="834" height="670" alt="Screenshot 2026-04-18 085246" src="https://github.com/user-attachments/assets/21c67da9-9577-4f95-9820-e4c9f8d42295" />
 # 🚀 AI Multi-Person Tracking & Behavior Analysis System
 
 > 🎯 Real-time AI surveillance system that detects, tracks, and analyzes human behavior using Deep Learning.
