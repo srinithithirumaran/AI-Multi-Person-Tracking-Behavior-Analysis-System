@@ -98,9 +98,7 @@ This is not just detection — it is a **complete AI system** combining:
 ---
 ## 🎥 Demo Preview
 
-👉 *(![Uploading Screenshot 2026-04-18 084617.png…]()
-
-)*
+👉 <img width="1671" height="933" alt="Screenshot 2026-04-18 084617" src="https://github.com/user-attachments/assets/56950982-86d7-426a-8410-4d6372b1966f" />
 
 ---
 
