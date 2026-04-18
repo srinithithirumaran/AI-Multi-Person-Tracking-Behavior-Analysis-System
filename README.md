@@ -98,7 +98,8 @@ This is not just detection — it is a **complete AI system** combining:
 ---
 ## 🎥 Demo Preview
 
-👉 *(Add your demo video or screenshots here)*
+👉 *(![Uploading Screenshot 2026-04-18 084617.png…]()
+)*
 
 ---
 
