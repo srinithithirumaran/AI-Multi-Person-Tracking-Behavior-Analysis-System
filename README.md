@@ -96,11 +96,7 @@ This is not just detection — it is a **complete AI system** combining:
 👉 Similar to real-world surveillance AI systems.
 
 ---
-## 🎥 Demo Preview
 
-👉 <img width="834" height="670" alt="Screenshot 2026-04-18 085246" src="https://github.com/user-attachments/assets/6e21461b-9cb4-4e46-b1f3-4e1b79e3b3f2" />
-
----
 
 ## 👩‍💻 Author
 
