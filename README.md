@@ -4,11 +4,6 @@
 
 ---
 
-## 🎥 Demo Preview
-
-👉 *(Add your demo video or screenshots here)*
-
----
 
 ## 🔥 Key Features
 
@@ -99,6 +94,11 @@ This is not just detection — it is a **complete AI system** combining:
 * Behavior Intelligence
 
 👉 Similar to real-world surveillance AI systems.
+
+---
+## 🎥 Demo Preview
+
+👉 *(Add your demo video or screenshots here)*
 
 ---
 
